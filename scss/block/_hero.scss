@@ -1,0 +1,112 @@
+  @import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+  .hero{
+    padding: 260px 0;
+    background-image: url('../../img/hero__bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .hero__help{
+    width: 128px;
+    height: 54px;
+  }
+  .hero__title{
+    color: #FFF;
+    font-family: Shippori Mincho;
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 108.3%;
+  }
+  .hero__btns{
+    display: flex;
+    button{
+
+        border: none;
+        border-radius: 34px;
+        background: #FF6D6D;
+        padding: 22px 36px;
+        &:last-child{
+            margin-left: 25px;
+            color: #2E4049;
+            background: #FFF;
+        }
+    }
+
+  }
+  .main__hero{
+    padding-top: 142px;
+    background: rgba(46, 64, 73, 0.91);
+    backdrop-filter: blur(20.5px);
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    p{
+      margin: 0;
+      margin-bottom: 20px;
+      width: 400px;
+    }
+    .main__logo{
+      margin-top: 40px;
+    }
+
+  }
+  .main__hero__inner{
+    margin-left: 40px;
+  }
+  .main__anonim{
+    box-sizing: border-box;
+    display: block;
+    justify-content: space-around;
+  }
+  .main__btn{
+    border-radius: 34px;
+    background: #FF6D6D;
+    padding: 22px 39px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-top: 60px;
+  }
+  .form__input{
+    padding: 48px 63px 40px 63px;
+    width: 500px;
+    height: 700;
+
+    input{
+      margin-top: 30px;
+      background-color: transparent;
+      height: 40px;
+      &:last-child{
+        width: 300px;
+        height: 100px;
+      }
+    }
+  }
+  .main__inner{
+    display: flex;
+    justify-content: space-between;
+    li:last-child{
+      margin-top: 30px;
+      border: 3px solid #fff;
+    }
+    input{
+      outline: none;
+      border: 1px solid #fff;
+      width: 100%;
+      padding: 22px;
+    }
+    textarea{
+      margin-top: 25px;
+      padding: 22px;
+      width: 100%;
+      background: transparent;
+    }
+  }
+  .main__buttons{
+    margin-top: 25px;
+    padding: 22px 41px;
+    align-items: center;
+    border-radius: 34px;
+  border: none;
+  }

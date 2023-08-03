@@ -1,0 +1,26 @@
+.causes{
+    padding-top: 164px;
+    padding-bottom: 163px;
+    background-color: #F1EEEC;
+}
+.causes__hed{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        color: #2E4049;
+        font-family: Shippori Mincho;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%
+    }
+    button{
+        border-radius: 34px;
+        background: #FF6D6D;
+        padding: 22px 35px;
+        border: none;
+        color: white;
+    }
+}

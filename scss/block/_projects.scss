@@ -1,0 +1,85 @@
+.projects__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects__info {
+    width: 50%;
+    
+    .info__inner {
+        width: 100%;
+        padding: 83px 102px;
+        background: #202D33;
+        height: 443px;
+
+        h2 {
+            color: #FFF;
+            font-family: Shippori Mincho;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 120%;
+
+        }
+        p {
+            color: #FFF;
+            font-family: Work Sans;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%;
+            margin: 30px 0;
+        }
+        button{
+            color: white;
+            font-weight: 500;
+            border-radius: 34px;
+            background: #FF6D6D;
+            padding: 22px 30px;
+            border: none;
+        }
+    }
+    .info__img{
+        display: flex;
+        justify-content: space-between;
+        img{
+            object-fit: cover;
+            width: 50%;
+            height: 443px;
+        }
+    }
+}
+.projects__content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    img{
+        width: 50%;
+        height: 443px;
+        object-fit: cover;
+    }
+    .content__info{
+        height: 443px;
+        width: 50%;
+        background: #FF6D6D;
+        padding: 39px;
+
+        button{
+            margin-top: 200px;
+            border-radius: 50px;
+            background: #E85353;
+            padding: 6px 19px;
+            border: none;
+            color: white;
+        }
+        h3{
+            margin-top: 14px;
+            color: #FFF;
+font-family: Shippori Mincho;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+        }
+    }
+}

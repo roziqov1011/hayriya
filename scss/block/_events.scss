@@ -1,0 +1,140 @@
+.events{
+    background-color: #fff;
+    padding-top: 264px;
+    padding-bottom: 125px;
+}
+
+.event__hed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+        color: #2E4049;
+        font-family: Shippori Mincho;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+    }
+
+   
+
+    .event__more {
+        padding: 22px 36px;
+        border-radius: 34px;
+        border: none;
+        color: white;
+        background: #FF6D6D;
+    }
+
+}
+.event__head {
+    width: 600px;
+    height: 300px;
+    background-image: url(../../img/Photo\ \(6\).png);
+    background-repeat: no-repeat;
+}
+.event__heard {
+    background-color: #FF6D6D;
+    padding-top: 25px;
+    width: 100px;
+    height: 130px;
+    text-align: center;
+
+    h1 {
+        color: #FFF;
+        font-family: Shippori Mincho;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+
+    }
+
+}
+.event__sub {
+    display: flex;
+
+    p {
+        margin: 0;
+    }
+}
+.event__small {
+    h3 {
+        margin: 28px 0;
+        color: #2E4049;
+        font-family: Shippori Mincho;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 120%;
+    }
+
+    p {
+        margin: 0;
+        width: 600px;
+        color: #727272;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+    }
+
+    img {
+        margin-top: 20px;
+        padding: 16px 20px;
+        background-color: #F0F0F0;
+        
+    }
+
+}
+
+
+
+.events__main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.events__list{
+    max-width: 570px;
+    margin-left: 30px;
+}
+
+.events__item{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #C7C7C7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .date{
+        padding: 21px 19px;
+        color: white;
+        background-color: #2E4049;
+        width: 116px;
+        span{
+            text-align: center;
+            font-family: Shippori Mincho;
+            font-size: 60px;
+            font-weight: 800;
+            line-height: 120%;
+            
+        }
+    }
+
+    p{
+        color: #727272;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        span{
+            color: #FF6D6D;
+        }
+    }
+    .item__info{
+        margin-left: 20px;
+    }
+}

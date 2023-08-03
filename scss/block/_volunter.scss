@@ -1,0 +1,39 @@
+.volunter__title {
+background-color: #F1EEEC;
+padding: 140px 0;
+text-align: center;
+color: #2E4049;
+    .bi {
+        color: black;
+    }
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    .info__item{
+        h4{
+            margin-top: 16px;
+        }
+    }
+    li:last-child {
+        padding: 64px 21px;
+        background-color: #77D7D3;
+        align-items: center;
+
+        p {
+            margin: 0;
+        }
+
+        button {
+            padding: 12px 22px;
+            color: #FFF;
+            border-radius: 34px;
+            background: #2E4049;
+            border: none;
+
+        }
+    }
+
+
+}
